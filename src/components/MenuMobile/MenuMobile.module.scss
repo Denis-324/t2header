@@ -1,0 +1,26 @@
+.container {
+	position: fixed;
+	padding: 0 15px 0 15px; 
+    top: 40;
+	width: 100%;
+	height:  calc(100% - 40px);
+}
+
+.tab {
+	width: calc(100% - 30px);
+	color: #959597;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	height: 50px;
+	border-bottom: 1px solid #EDEDED ;
+	display:  flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+@media (min-width: 790px) {
+	.container {
+		display: none;
+	}
+}
